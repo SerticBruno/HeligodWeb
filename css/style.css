@@ -1,0 +1,150 @@
+html,
+body{
+	height: 100%;
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.gradient{
+	background: rgb(0, 97, 242);
+	background: linear-gradient(
+		135deg,
+		rgba(0, 97, 242, 1) 0%,
+		rgba(105, 0, 199, 1) 100%
+		);
+}
+
+.navbar{
+	margin-bottom: 0px !important;
+}
+
+.companies{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.page-header,
+.companies,
+.feature,
+.icons,
+.gallery,
+.services,
+.contact
+{
+	animation: fadeIn 2.3s;
+}
+
+.page-header{
+	color: #fff;
+	padding-bottom: 0px !important;
+	margin: 0px !important;
+	border-bottom: none !important;
+}
+
+.page-header img{
+	max-width: 110%;
+}
+
+.page-header h2{
+	font-size: 3em;
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+		transform: translateY(-23px);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.feature{
+	color: #fff;
+}
+
+
+.feature img{
+	max-width: 100%;
+}
+
+.feature ul{
+	padding-left: 2rem;
+	list-style-type: none;
+}
+
+.feature ul li{
+	padding-left: 2rem;
+	background-image: url(../img/checkmark.png);
+	background-repeat: no-repeat;
+	line-height: 1.6rem;
+	margin-bottom: 1rem;
+}
+
+.icon{
+	color: #fff;
+	height: 8rem;
+	width: 8rem;
+	font-size: 1.75rem;
+	border-radius: 30%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gallery{
+	background-color: whitesmoke;
+}
+
+.gallery img{
+	border-radius: 2%;
+	max-width: 90%;
+}
+
+.services{
+	color: #fff;
+}
+
+.services img{
+	max-width: 90%;
+}
+
+.contact img{
+	max-width: 80%;
+}
+
+footer{
+	color: white;
+	font-size: 2rem;
+}
+
+footer img{
+	max-width: 150px;
+	max-height: 45px;
+}
+
+a{
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #f3f3f3;
+
+}
+
+a:visited{
+	color: #aaaaaa;
+}
+
+
+ul.social{
+	list-style-type: none;
+	display: inline-block;
+	
+}
+
+ul.social li{
+	display: inline-block;
+}
